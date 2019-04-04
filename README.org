@@ -4,7 +4,7 @@
 ------
 
 * A.D.V.E.N.T
-(The *ADV*-anc-*e*-d *N*-ameless *T*-ext editor)
+(The *ADV*-anc- *e* -d *N*-ameless *T*-ext editor)
 
 
 ADVENT es un editor de texto de lenguaje extensible de marcado

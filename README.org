@@ -126,3 +126,9 @@ Además de que se tienen que insertar saltos de línea
 El propósito de ADVENT es proporcionar un editor de texto que no requiera de
 programas dependientes de plataformas propias de Microsoft, además de ser
 rápido, compatible con cualquier plataforma y personalizable.
+
+* Screenshots
+
+#+CAPTION: Pantalla de inicio [PRE ALPHA]
+#+NAME: fig:MainWindow
+[[./docs/screenshots/MainWindow.png]]

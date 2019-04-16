@@ -3,11 +3,7 @@
 A.D.V.E.N.T
 ===========
 
-<<<<<<< HEAD
 (The **ADV**-anc-**e**-d**N**-ameless **T**-ext editor)
-=======
-(The **ADV**-anc- **e** -d **N**-ameless **T**-ext editor)
->>>>>>> d5596cb056b72d360bfcba46fba574a203f2add7
 
 ADVENT es un editor de texto de lenguaje extensible de marcado
 (**eXtensible Markup Language - xml**) que pretende ofrecer una
@@ -37,7 +33,6 @@ Problemas de Scielo
 -   Funciona con una versión "Deprecated" de Python (2.7.14)
 -   Hay que instalar requerimientos ejecutando un archivo `.bat`
 
-<<<<<<< HEAD
 -------------------
 =======
 Métodología de generación de archivos de SciELO
@@ -138,7 +133,6 @@ una línea en blanco.
 ------------------------------------------------------------------------
 
 > Además de que se tienen que insertar saltos de línea
->>>>>>> d5596cb056b72d360bfcba46fba574a203f2add7
 
 El propósito de ADVENT es proporcionar un editor de texto que no
 requiera de programas dependientes de plataformas propias de Microsoft,

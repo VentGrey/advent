@@ -3,11 +3,7 @@
 A.D.V.E.N.T
 ===========
 
-<<<<<<< HEAD
 (The **ADV**-anc-**e**-d**N**-ameless **T**-ext editor)
-=======
-(The **ADV**-anc- **e** -d **N**-ameless **T**-ext editor)
->>>>>>> d5596cb056b72d360bfcba46fba574a203f2add7
 
 ADVENT es un editor de texto de lenguaje extensible de marcado
 (**eXtensible Markup Language - xml**) que pretende ofrecer una
@@ -37,108 +33,10 @@ Problemas de Scielo
 -   Funciona con una versión "Deprecated" de Python (2.7.14)
 -   Hay que instalar requerimientos ejecutando un archivo `.bat`
 
-<<<<<<< HEAD
 -------------------
-=======
-Métodología de generación de archivos de SciELO
------------------------------------------------
 
-### Nombramiento y estructura de archivos:
-
-Cada uno de los documentos del número (artículos, editoriales, reseñas,
-etc.) de la revista se constituirá en un archivo Word; el nombre de cada
-archivo Word se forma con un número secuencial de archivo y las páginas
-inicial y final que le corresponden en el archivo PDF.
-
-Eg: `a11-121-127.docx`
-
-Por lo tanto necesitamos dos directorios con archivos diferentes
-
--   Directorio `scielo markup`:
-    -   `archivos.docx`
-
--Directorio `src`
-
--   `archivos.pdf`
-
-Asimismo no se pueden manejar proyectos con los archivos pues cada nueva
-"edición" tendremos que hacerla desde una ruta **impuesta** que se
-encuentra en la raíz del sistema operativo (en este caso Windows).
-
-### Estructura y formato de los datos básicos
-
-El formato recomendado (donde la palabra recomendado no aplica, pues
-poco es el margen de error que permiten) de las tipografías de las
-cuales solo están permitidas:
-
--   Times New Roman
--   Arial
--   Calibri
--   Verdana
-
-1.  El **DOI** debe estar alineado a la derecha y en tamaño 12
-
-2.  La sección del artículo a la cual pertenece en la tabla de contenido
-    debe estar
-
-alineada a la derecha y tamaño 12. Si no se cuenta con este dato dejar
-una línea en blanco.
-
-1.  El título en el idioma original del artículo debe estar en negritas,
-    tamaño 14, centrado.
-
-2.  La traducción del título debe venir en la siguiente línea, en
-    negritas y centrado. Si hay más traducciones escribir cada una en
-    una línea diferente.
-
-3.  Los nombres de los autores deberán estar alineados a la izquierda,
-    cada uno en un párrafo distinto y tamaño 12. Cada autor debe tener
-    un número o carácter en formato superíndice indicando a qué
-    afiliación pertenece.
-
-4.  La(s) afiliación(es) debe(n) estar abajo del grupo de autores. Cada
-    afiliación deberá estar en un párrafo y tamaño 12. Al inicio de cada
-    afiliación estará el número o carácter en superíndice que lo
-    relaciona con uno o más autor/es.
-
-5.  El autor para correspondencia deberá estar alineado a la izquierda,
-    tamaño 12.
-
-6.  El resumen debe venir después de la afiliación de los autores,
-    alineado a la izquierda, tamaño 12. La palabra «Resumen:» debe venir
-    en negritas, con o sin dos puntos. El texto del resumen debe empezar
-    en el párrafo siguiente, tamaño 12. Para resúmenes estructurados
-    (contiene secciones como Introducción, Método, Conclusiones, etc.),
-    cada título de sección debe estar en negritas, con o sin dos puntos.
-    El texto de cada sección del resumen debe venir en párrafos
-    distintos.
-
-7.  Las palabras clave deben estar después del resumen, tamaño 12. El
-    texto «Palabras clave:» debe venir en negritas seguido de dos
-    puntos. Cada una de las palabras clave deben estar separadas por
-    coma o punto y coma.
-
-8.  El **Abstract**, deberá estar alineado a la izquierda, tamaño 12. La
-    palabra **Abstract** debe estar en negritas, con o sin dos puntos.
-    El texto del resumen debe comenzar en un nuevo párrafo, tamaño 12.
-    Para abstracts estructurados, cada título de sección debe estar en
-    negritas, con o sin dos puntos. El texto de cada sección del
-    abstract debe venir en párrafos distintos.
-
-9.  Las **key words** deben estar después del abstract, tamaño 12. El
-    texto «Key words:» debe venir en negritas seguido de dos puntos.
-    Cada una de las key words debe estar separadas por coma o punto y
-    coma.
-
-10. Las Fechas de recibido y aceptado, pueden ser incluidas después de
-    los resúmenes o al final del documento, tamaño 12 y alineadas a la
-    izquierda con el formato «dd/mm/aaaa». Cada una de las fechas de
-    aceptado, recibido y/o revisado deben estar en párrafos distintos.
-
-------------------------------------------------------------------------
 
 > Además de que se tienen que insertar saltos de línea
->>>>>>> d5596cb056b72d360bfcba46fba574a203f2add7
 
 El propósito de ADVENT es proporcionar un editor de texto que no
 requiera de programas dependientes de plataformas propias de Microsoft,

@@ -43,8 +43,10 @@ requiera de programas dependientes de plataformas propias de Microsoft,
 además de ser rápido, compatible con cualquier plataforma y
 personalizable.
 
-Screenshots
-===========
-
-![Pantalla de inicio \[PRE
-ALPHA\]](./docs/screenshots/MainWindow.png "MainWindow")
+# Objetivos del proyecto
+ 
+* Proveer un editor multiplataforma con pocos o sin instalación compleja
+* Crear una interfaz simple y sin exceso de botones
+* Modelar un lenguaje de marcado fácil de recordar, exportable a xml compatible
+  con el estándar estipulado
+* Crear un editor extensible y personalizable para el usuario final.
